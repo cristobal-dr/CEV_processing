@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Entornos y credenciales
+.env
+*.env
+config/paths.yaml
+config/*.local.yaml
+
+# Bases de datos pesadas
+*.sqlite
+*.sqlite3
+*.db
+*.duckdb
+
+# Datos grandes
+data/raw/*
+data/interim/*
+data/processed/*
+data/external/*
+
+# Mantener carpetas vacías versionadas
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+!data/external/.gitkeep
+
+# PDFs, imágenes y archivos descargados
+*.pdf
+*.zip
+*.7z
+*.rar
+
+# Logs grandes
+logs/*
+!logs/.gitkeep
+
+# Archivos temporales
+*.tmp
+*.bak
+*.log
+.DS_Store

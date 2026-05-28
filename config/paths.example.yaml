@@ -1,0 +1,27 @@
+# Copia este archivo como config/paths.yaml y ajusta las rutas externas.
+# Las rutas relativas se resuelven desde project_root.
+project_root: .
+
+# Carpeta donde se guardan las fichas PDF descargadas desde el sitio CEV.
+cev_pdf_dir: data/raw/cev_fichas
+
+# Respaldo comprimido opcional de las fichas descargadas.
+cev_pdf_archive: data/raw/cev_fichas_subcarpetas.tar.zst
+
+# Base SQLite consolidada. Puede quedar fuera del repo si es pesada.
+cev_db_path: data/processed/cev_compiled.sqlite
+
+# Regiones de extraccion marcadas sobre una ficha PDF de referencia.
+pdf_regions_path: config/table_regions.json
+
+# Carpetas del repositorio.
+data_raw_dir: data/raw
+data_interim_dir: data/interim
+data_processed_dir: data/processed
+pdf_extract_out_dir: data/interim/output_cev_compiled
+logs_dir: logs
+download_log_csv_path: logs/descargas_cev_log.csv
+failed_processing_log_path: logs/cev_processing_failed.log
+reports_dir: reports
+notebooks_dir: notebooks
+sql_dir: sql
