@@ -1,6 +1,6 @@
 {
   "pdf_template": "ficha_la_cisterna_edificio_goycolea_100_22397-depto_201_departamento_precalificadas_ver_informe.pdf",
-  "pdf_path": "C:\\Prueba\\doc_processing\\ficha_la_cisterna_edificio_goycolea_100_22397-depto_201_departamento_precalificadas_ver_informe.pdf",
+  "pdf_path": "/home/cdo/Downloads/CEV_fichas/la_cisterna/ficha_la_cisterna_edificio_goycolea_100_22397-depto_201_departamento_precalificadas_ver_informe.pdf",
   "n_pages": 7,
   "coordinate_system": {
     "origin": "top-left",
@@ -193,7 +193,7 @@
       "y1": 802.73
     },
     {
-      "id": "page_03_region_16", 
+      "id": "page_03_region_16",
       "page": 3,
       "x0": 141.42,
       "y0": 694.69,
