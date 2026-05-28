@@ -87,6 +87,14 @@ python scripts/run_cev_supervised.py \
 
 Este runner tambien usa `config/paths.yaml` por defecto. El log de fallos se escribe en `failed_processing_log_path`.
 
+## Seleccion de documentos procesables
+
+Antes de construir la base SQLite se hizo una revision estadistica de la estructura de las fichas descargadas, contando cuantas paginas tenia cada documento. Ese diagnostico mostro que existian dos formatos principales: fichas de 4 paginas y fichas de 7 paginas.
+
+Las fichas de 4 paginas corresponden a una version antigua del informe CEV y contienen menos informacion que el formato de 7 paginas. Como el extractor fue disenado sobre las regiones del formato completo de 7 paginas, se descarto el procesamiento de los documentos de 4 paginas para evitar registros incompletos o no comparables.
+
+En total se identificaron 262.913 fichas. De ellas, 33.940 tenian 4 paginas, equivalente a 12,9% del total, y no fueron incorporadas a la base de datos. El resto corresponde a fichas de 7 paginas y constituye el universo procesado para la SQLite consolidada.
+
 ## Como se construye la base SQLite
 
 El extractor abre cada PDF con PyMuPDF, valida que tenga 7 paginas y recorre las regiones definidas en `table_regions.json`. Para cada region obtiene texto visible, limpia valores numericos y arma registros estructurados.
