@@ -7,6 +7,13 @@ import re
 from pathlib import Path
 from typing import Any
 
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+SRC_DIR = PROJECT_ROOT / "src"
+if str(SRC_DIR) not in sys.path:
+    sys.path.insert(0, str(SRC_DIR))
+
+from cev_analisis.paths import default_paths_config, load_paths, path_value
+
 try:
     import pymupdf as fitz
 except ImportError:
