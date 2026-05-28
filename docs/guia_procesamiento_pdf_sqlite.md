@@ -93,7 +93,7 @@ El extractor abre cada PDF con PyMuPDF, valida que tenga 7 paginas y recorre las
 
 La base se inicializa con tablas tematicas:
 
-- `descripcion_general`: identificacion del documento, region, comuna, direccion, tipo de vivienda, superficie, etiqueta y datos generales.
+- `descripcion_general`: identificacion del documento, region, comuna, direccion, tipo de vivienda, tipo de inmueble, superficie, etiqueta y datos generales.
 - `requerimientos`: consumos por ACS, iluminacion, calefaccion, ERNC, consumo total y emisiones.
 - `descripcion_equipos`: descripcion y consumo de equipos de proyecto y referencia.
 - `requerimientos_total`: consumos primarios, aportes fotovoltaicos, solar termico y coeficiente energetico.
@@ -104,6 +104,8 @@ La base se inicializa con tablas tematicas:
 - `exigencia_u_normativa`: exigencias normativas de transmitancia por elemento.
 
 Cada tabla usa `document_id` como llave principal o como parte de una llave compuesta. El script usa `INSERT OR REPLACE`, por lo que volver a procesar un PDF actualiza sus registros en la base.
+
+El campo `tipo_inmueble` es una clasificacion derivada a partir de `tipo_vivienda`. Se calcula en el notebook `scripts/corregir_tipo_inmueble_cev.ipynb`: primero normaliza el texto de `tipo_vivienda`, luego busca patrones asociados a departamentos (`departamento`, `depto`, `edificio`, `torre`, `condominio`, `duplex`), casas pareadas o continuas (`pareada`, `pareado`, `continua`) y casas aisladas (`aislada`, `aislado`, `casa`). El resultado esperado queda en tres categorias principales: `depto`, `casa_pareada` y `casa_aislada`; si no hay coincidencia suficiente, se completa como `indeterminado`. Ese notebook agrega la columna con `ALTER TABLE descripcion_general ADD COLUMN tipo_inmueble TEXT` cuando no existe y luego actualiza cada registro por `document_id`.
 
 ## Diagrama entidad-relacion
 
@@ -129,6 +131,7 @@ erDiagram
         TEXT direccion
         TEXT rol_vivienda
         TEXT tipo_vivienda
+        TEXT tipo_inmueble
         REAL superficie_util
         REAL ahorro
         TEXT etiqueta
