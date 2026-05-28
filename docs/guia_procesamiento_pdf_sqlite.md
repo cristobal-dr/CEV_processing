@@ -105,6 +105,128 @@ La base se inicializa con tablas tematicas:
 
 Cada tabla usa `document_id` como llave principal o como parte de una llave compuesta. El script usa `INSERT OR REPLACE`, por lo que volver a procesar un PDF actualiza sus registros en la base.
 
+## Diagrama entidad-relacion
+
+El diagrama entidad-relacion esta disponible como archivo Mermaid en `docs/diagrams/cev_sqlite_er.mmd`. Las relaciones son logicas: el esquema SQLite actual no declara `FOREIGN KEY`, pero las tablas se conectan por `document_id`.
+
+```mermaid
+erDiagram
+    descripcion_general ||--|| requerimientos : "document_id"
+    descripcion_general ||--|| descripcion_equipos : "document_id"
+    descripcion_general ||--|| requerimientos_total : "document_id"
+    descripcion_general ||--o{ elementos_opacos : "document_id"
+    descripcion_general ||--o{ elementos_traslucidos : "document_id"
+    descripcion_general ||--o{ puentes_termicos : "document_id"
+    descripcion_general ||--o{ materialidades : "document_id"
+    descripcion_general ||--o{ exigencia_u_normativa : "document_id"
+
+    descripcion_general {
+        TEXT document_id PK
+        TEXT source_pdf
+        TEXT estado_cev
+        TEXT region
+        TEXT comuna
+        TEXT direccion
+        TEXT rol_vivienda
+        TEXT tipo_vivienda
+        REAL superficie_util
+        REAL ahorro
+        TEXT etiqueta
+        REAL demanda_calef
+        REAL demanda_refri
+        TEXT fecha_emision
+        TEXT zona_termica
+        TEXT solicitante
+        TEXT evaluador
+    }
+
+    requerimientos {
+        TEXT document_id PK
+        REAL acs_kwhm2
+        REAL ilum_kwhm2
+        REAL calef_kwhm2
+        REAL ernc_kwhm2
+        REAL consumo_kwhm2
+        REAL emisiones_co2
+    }
+
+    descripcion_equipos {
+        TEXT document_id PK
+        TEXT calef_proyec_descripcion
+        TEXT ilum_proyec_descripcion
+        TEXT acs_proyec_descripcion
+        TEXT ernc_proyec_descripcion
+        REAL calef_proyec_kwh
+        REAL ilum_proyec_kwh
+        REAL acs_proyec_kwh
+        REAL ernc_proyec_kwh
+        TEXT calef_ref_descripcion
+        TEXT ilum_ref_descripcion
+        TEXT acs_ref_descripcion
+        TEXT ernc_ref_descripcion
+        REAL calef_ref_kwh
+        REAL ilum_ref_kwh
+        REAL acs_ref_kwh
+        REAL ernc_ref_kwh
+    }
+
+    requerimientos_total {
+        TEXT document_id PK
+        REAL consumo_primario_calef
+        REAL consumo_primario_acs
+        REAL consumo_primario_ilum
+        REAL consumo_primario_vent
+        REAL generacion_pv
+        REAL pv_consumos_basicos
+        REAL dif_pv_consumo
+        REAL st_calef
+        REAL st_acs
+        REAL consumo_primario
+        REAL aporte_pv
+        REAL consumos_energia_externa
+        REAL consumo_primario_2
+        REAL energia_ref
+        REAL coef_energetico_c
+    }
+
+    elementos_opacos {
+        TEXT document_id PK
+        TEXT orientacion PK
+        REAL area
+        REAL u
+    }
+
+    elementos_traslucidos {
+        TEXT document_id PK
+        TEXT orientacion PK
+        REAL area
+        REAL u
+    }
+
+    puentes_termicos {
+        TEXT document_id PK
+        TEXT orientacion PK
+        REAL p01
+        REAL p02
+        REAL p03
+        REAL p04
+        REAL p05
+    }
+
+    materialidades {
+        TEXT document_id PK
+        TEXT elemento PK
+        TEXT descripcion
+    }
+
+    exigencia_u_normativa {
+        TEXT document_id PK
+        TEXT elemento PK
+        TEXT exigencia_texto
+        REAL exigencia_u
+    }
+```
+
 ## Salidas
 
 Las salidas principales son:
