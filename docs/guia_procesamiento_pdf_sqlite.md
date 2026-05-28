@@ -30,6 +30,10 @@ Las imagenes siguientes son la ficha de referencia exportada a JPG. Sirven para 
 
 El archivo `config/table_regions.json` fue generado con `scripts/pdf_coord_picker_multipage.py`. Ese script abre un PDF de referencia y permite dibujar rectangulos por pagina. Cada rectangulo queda guardado con coordenadas PDF y un identificador como `page_01_region_01`.
 
+La interfaz del picker muestra la pagina renderizada del PDF y superpone las regiones ya definidas. Al seleccionar o crear rectangulos, el script registra las coordenadas en puntos PDF y las guarda en el JSON de regiones.
+
+![Interfaz del picker de coordenadas para definir regiones PDF](img/interfaz_reion_picker.png)
+
 Para revisar o regenerar las regiones:
 
 ```bash
