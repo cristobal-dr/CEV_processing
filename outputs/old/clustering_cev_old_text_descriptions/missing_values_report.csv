@@ -1,0 +1,10 @@
+variable,missing_before,missing_after,pct_missing_before,pct_missing_after
+superficie_util,0,0,0.0,0.0
+u_norm_muro_principal,17,0,0.16999999999999998,0.0
+u_norm_muro_secundario,17,0,0.16999999999999998,0.0
+u_norm_techo_principal,17,0,0.16999999999999998,0.0
+u_norm_techo_secundario,17,0,0.16999999999999998,0.0
+zona_termica,0,0,0.0,0.0
+tipo_inmueble,24,0,0.24,0.0
+calef_proyec,13,0,0.13,0.0
+acs_proyec,8,0,0.08,0.0

@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-06-11T22:05:28",
+  "input": "data/processed/fichas_cev_cluster_input_v2_kwh.csv",
+  "params": {
+    "seeds": [
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115
+    ],
+    "max_rows": 10000,
+    "min_cluster_size": 50,
+    "min_samples": 15,
+    "use_kwh_systems": true,
+    "use_log_kwh_systems": true,
+    "use_log_superficie": false,
+    "id_col": "document_id"
+  },
+  "outputs": [
+    "metricas_muestras.csv",
+    "resumen_clusters_muestras.csv",
+    "silhouette_clusters_muestras.csv",
+    "top_clusters_muestras.csv",
+    "resumen_metricas_agregado.csv"
+  ]
+}

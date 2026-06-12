@@ -1,0 +1,5 @@
+variable,moda,frecuencia_moda,pct_moda,n_categorias,top_categorias
+zona_termica,d,6029,60.29,9,d: 6029 (60.3%); f: 1114 (11.1%); e: 788 (7.9%); c: 623 (6.2%); a: 544 (5.4%); g: 544 (5.4%); b: 229 (2.3%); i: 114 (1.1%)
+tipo_inmueble,depto,6523,65.23,4,depto: 6523 (65.2%); casa_pareada: 2096 (21.0%); casa_aislada: 1357 (13.6%); <NA>: 24 (0.2%)
+calef_proyec,no posee,8075,80.75,142,no posee: 8075 (80.8%); no considera: 250 (2.5%); no aplica: 235 (2.4%); sin sistema: 211 (2.1%); 0: 181 (1.8%); calefactor electrico: 107 (1.1%); estufa kerosene 3 kw: 85 (0.9%); estufa a gas: 47 (0.5%)
+acs_proyec,calefont 7 litros tiro forzado,2739,27.389999999999997,404,calefont 7 litros tiro forzado: 2739 (27.4%); calefont glp: 1643 (16.4%); calefont 10 litros tiro forzado: 647 (6.5%); calefont: 463 (4.6%); caldera con condensación: 214 (2.1%); calefont tiro forzado: 168 (1.7%); calefont 13 litros tiro forzado: 143 (1.4%); caldera de condensación: 138 (1.4%)

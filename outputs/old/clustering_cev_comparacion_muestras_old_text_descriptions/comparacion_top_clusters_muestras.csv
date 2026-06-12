@@ -1,0 +1,25 @@
+corrida,cluster_hdbscan,n,pct_total,silhouette_media,tipo,zona,sup_mediana,calef,acs,u_muro_mediana,u_techo_mediana,etiqueta
+rs42_base,50,217,2.17,0.182,depto,d,51.6,no posee,calefont,1.9,0.47,depto / d / sup_mediana 52 m2 / calef: no posee / acs: calefont
+rs42_base,33,192,1.92,0.549,casa_aislada,d,68.5,no posee,calefont 7 litros tiro forzado,1.9,0.47,casa_aislada / d / sup_mediana 68 m2 / calef: no posee / acs: calefont 7 litros tiro forzado
+rs42_base,54,190,1.9,0.956,depto,e,47.05,no posee,calefont 7 litros tiro forzado,1.7,0.38,depto / e / sup_mediana 47 m2 / calef: no posee / acs: calefont 7 litros tiro forzado
+rs42_base,2,185,1.85,0.118,depto,d,45.7,no posee,calefont 7 litros tiro forzado,1.0,0.0,depto / d / sup_mediana 46 m2 / calef: no posee / acs: calefont 7 litros tiro forzado
+rs42_base,44,181,1.81,0.796,depto,d,48.5,no posee,calefont glp,1.9,0.47,depto / d / sup_mediana 48 m2 / calef: no posee / acs: calefont glp
+rs42_base,3,181,1.81,0.566,depto,c,51.5,no posee,calefont 7 litros tiro forzado,4.0,0.84,depto / c / sup_mediana 52 m2 / calef: no posee / acs: calefont 7 litros tiro forzado
+rs42_base,40,151,1.51,0.879,casa_pareada,d,42.0,no posee,calefont glp,1.9,0.47,casa_pareada / d / sup_mediana 42 m2 / calef: no posee / acs: calefont glp
+rs42_base,38,139,1.39,0.439,depto,d,29.0,no posee,central termica,1.9,0.47,depto / d / sup_mediana 29 m2 / calef: no posee / acs: central termica
+rs7,32,255,2.55,0.44,depto,e,51.0,no posee,calefont 7 litros tiro forzado,1.7,0.38,depto / e / sup_mediana 51 m2 / calef: no posee / acs: calefont 7 litros tiro forzado
+rs7,2,201,2.01,0.14,depto,d,45.2,no posee,calefont 7 litros tiro forzado,1.0,0.0,depto / d / sup_mediana 45 m2 / calef: no posee / acs: calefont 7 litros tiro forzado
+rs7,26,181,1.81,0.838,casa_aislada,d,68.7,no posee,calefont 7 litros tiro forzado,1.9,0.47,casa_aislada / d / sup_mediana 69 m2 / calef: no posee / acs: calefont 7 litros tiro forzado
+rs7,52,179,1.79,0.829,depto,d,51.1,no posee,calefont glp,1.9,0.47,depto / d / sup_mediana 51 m2 / calef: no posee / acs: calefont glp
+rs7,53,176,1.76,0.785,depto,d,48.5,no posee,calefont glp,1.9,0.47,depto / d / sup_mediana 48 m2 / calef: no posee / acs: calefont glp
+rs7,46,175,1.75,0.928,casa_pareada,d,54.0,no posee,calefont 7 litros tiro forzado,1.9,0.47,casa_pareada / d / sup_mediana 54 m2 / calef: no posee / acs: calefont 7 litros tiro forzado
+rs7,3,159,1.59,0.651,depto,c,51.1,no posee,calefont 7 litros tiro forzado,4.0,0.84,depto / c / sup_mediana 51 m2 / calef: no posee / acs: calefont 7 litros tiro forzado
+rs7,31,159,1.59,0.433,depto,f,49.4,no posee,calefont 7 litros tiro forzado,1.6,0.33,depto / f / sup_mediana 49 m2 / calef: no posee / acs: calefont 7 litros tiro forzado
+rs123,17,214,2.14,0.357,casa_aislada,d,78.35,no posee,calefont 7 litros tiro forzado,1.9,0.47,casa_aislada / d / sup_mediana 78 m2 / calef: no posee / acs: calefont 7 litros tiro forzado
+rs123,24,195,1.95,0.294,depto,d,51.6,no posee,calefont,1.9,0.47,depto / d / sup_mediana 52 m2 / calef: no posee / acs: calefont
+rs123,34,174,1.74,0.923,depto,e,49.5,no posee,calefont 7 litros tiro forzado,1.7,0.38,depto / e / sup_mediana 50 m2 / calef: no posee / acs: calefont 7 litros tiro forzado
+rs123,51,162,1.62,0.831,depto,d,48.5,no posee,calefont glp,1.9,0.47,depto / d / sup_mediana 48 m2 / calef: no posee / acs: calefont glp
+rs123,35,161,1.61,0.787,depto,d,40.9,no posee,caldera de condensación,1.9,0.47,depto / d / sup_mediana 41 m2 / calef: no posee / acs: caldera de condensación
+rs123,41,160,1.6,0.596,casa_pareada,d,57.8,no posee,calefont 7 litros tiro forzado,1.7,0.38,casa_pareada / d / sup_mediana 58 m2 / calef: no posee / acs: calefont 7 litros tiro forzado
+rs123,49,154,1.54,0.875,casa_pareada,d,42.0,no posee,calefont glp,1.9,0.47,casa_pareada / d / sup_mediana 42 m2 / calef: no posee / acs: calefont glp
+rs123,6,151,1.51,0.322,casa_aislada,g,48.7,no posee,calefont glp,1.1,0.28,casa_aislada / g / sup_mediana 49 m2 / calef: no posee / acs: calefont glp

@@ -1,0 +1,9 @@
+{
+  "n_total": 10000,
+  "n_clusters_excluding_noise": 62,
+  "n_noise": 4300,
+  "pct_noise": 43.0,
+  "silhouette_precomputed_non_noise": 0.738419983485559,
+  "n_input": 228973,
+  "n_used_after_sampling_and_dedup": 10000
+}

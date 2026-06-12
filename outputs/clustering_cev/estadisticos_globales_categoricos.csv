@@ -1,0 +1,3 @@
+variable,moda,frecuencia_moda,pct_moda,n_categorias,top_categorias
+zona_termica,d,6029,60.29,9,d: 6029 (60.3%); f: 1114 (11.1%); e: 788 (7.9%); c: 623 (6.2%); a: 544 (5.4%); g: 544 (5.4%); b: 229 (2.3%); i: 114 (1.1%)
+tipo_inmueble,depto,6523,65.23,4,depto: 6523 (65.2%); casa_pareada: 2096 (21.0%); casa_aislada: 1357 (13.6%); <NA>: 24 (0.2%)

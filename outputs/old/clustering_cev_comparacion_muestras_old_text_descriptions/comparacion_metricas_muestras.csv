@@ -1,0 +1,4 @@
+corrida,random_state,n_usado,clusters_sin_ruido,n_ruido,pct_ruido,silhouette_global,silhouette_cluster_min,silhouette_cluster_mediana,silhouette_cluster_max,tam_cluster_min,tam_cluster_mediana,tam_cluster_max,tipo_moda_clusters_top3,zona_moda_clusters_top3,calef_moda_clusters_top3
+rs42_base,42,10000,62,4300,43.0,0.738419983485559,0.118286305763889,0.8615515028627799,1.0,50,82.0,217,depto; casa_pareada; casa_aislada,d; f; e,no posee; calefactor electrico; estufa kerosene 3 kw
+rs7,7,10000,57,4105,41.05,0.7015576745329671,-0.0319256428058695,0.7862357063312565,1.0,52,92.0,255,depto; casa_pareada; casa_aislada,d; f; g,no posee; calefactor electrico; estufa kerosene 3 kw
+rs123,123,10000,58,4363,43.63,0.7086353190482731,-0.032521608537736,0.8198576513054621,1.0,50,88.5,214,depto; casa_pareada; casa_aislada,d; f; e,no posee; calefactor electrico; estufa kerosene 3 kw

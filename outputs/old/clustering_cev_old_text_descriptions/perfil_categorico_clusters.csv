@@ -1,0 +1,358 @@
+cluster_hdbscan,variable,categoria,frecuencia,pct_cluster,n_categorias
+-1,zona_termica,d,2398,55.76744186046512,9
+-1,zona_termica,f,398,9.255813953488373,9
+-1,zona_termica,c,376,8.744186046511627,9
+-1,zona_termica,a,312,7.255813953488372,9
+-1,zona_termica,e,256,5.953488372093023,9
+-1,zona_termica,g,234,5.441860465116279,9
+-1,zona_termica,b,197,4.5813953488372094,9
+-1,zona_termica,i,114,2.6511627906976742,9
+-1,zona_termica,h,15,0.3488372093023256,9
+-1,tipo_inmueble,depto,2972,69.11627906976744,4
+-1,tipo_inmueble,casa_pareada,703,16.348837209302324,4
+-1,tipo_inmueble,casa_aislada,601,13.976744186046512,4
+-1,tipo_inmueble,,24,0.5581395348837209,4
+-1,calef_proyec,no posee,2792,64.93023255813954,141
+-1,calef_proyec,0,181,4.209302325581396,141
+-1,calef_proyec,no aplica,179,4.162790697674419,141
+-1,calef_proyec,no considera,145,3.372093023255814,141
+-1,calef_proyec,sin sistema,103,2.395348837209302,141
+-1,calef_proyec,estufa a gas,47,1.0930232558139534,141
+-1,calef_proyec,calefactor electrico,44,1.0232558139534882,141
+-1,calef_proyec,radiador eléctrico,38,0.8837209302325582,141
+-1,calef_proyec,"central térmica, 3 calderas murales de condensación",35,0.813953488372093,141
+-1,calef_proyec,losa radiante,23,0.5348837209302326,141
+-1,acs_proyec,calefont 7 litros tiro forzado,477,11.093023255813954,388
+-1,acs_proyec,calefont glp,375,8.720930232558139,388
+-1,acs_proyec,calefont 10 litros tiro forzado,231,5.372093023255814,388
+-1,acs_proyec,calefont,159,3.697674418604651,388
+-1,acs_proyec,calefont 13 litros tiro forzado,138,3.2093023255813953,388
+-1,acs_proyec,termo eléctrico,80,1.8604651162790697,388
+-1,acs_proyec,calefon,71,1.6511627906976745,388
+-1,acs_proyec,calefont 11 litros tiro forzado,52,1.2093023255813953,388
+-1,acs_proyec,el edificio cuenta con 2 calderas de gas natural ivar super,42,0.9767441860465116,388
+-1,acs_proyec,"calefont, tiro forzado",38,0.8837209302325582,388
+0,zona_termica,d,32,50.79365079365079,2
+0,zona_termica,c,31,49.2063492063492,2
+0,tipo_inmueble,depto,52,82.53968253968253,3
+0,tipo_inmueble,casa_pareada,6,9.523809523809524,3
+0,tipo_inmueble,casa_aislada,5,7.936507936507936,3
+0,calef_proyec,calefactor electrico,63,100.0,1
+0,acs_proyec,calefont 10 litros gl,37,58.730158730158735,2
+0,acs_proyec,calefont 12 litros gl,26,41.269841269841265,2
+1,zona_termica,d,79,92.94117647058823,2
+1,zona_termica,e,6,7.0588235294117645,2
+1,tipo_inmueble,casa_pareada,42,49.411764705882355,3
+1,tipo_inmueble,casa_aislada,23,27.058823529411764,3
+1,tipo_inmueble,depto,20,23.52941176470588,3
+1,calef_proyec,estufa kerosene 3 kw,85,100.0,1
+1,acs_proyec,calefon tiro natural 10 lts +sst,85,100.0,1
+2,zona_termica,d,166,89.72972972972974,3
+2,zona_termica,e,16,8.64864864864865,3
+2,zona_termica,f,3,1.6216216216216217,3
+2,tipo_inmueble,depto,102,55.13513513513514,3
+2,tipo_inmueble,casa_aislada,46,24.864864864864867,3
+2,tipo_inmueble,casa_pareada,37,20.0,3
+2,calef_proyec,no posee,185,100.0,1
+2,acs_proyec,calefont 7 litros tiro forzado,65,35.13513513513514,24
+2,acs_proyec,calefont 10 litros tiro forzado,27,14.594594594594595,24
+2,acs_proyec,"central térmica con 10 calefones de condesación, marca anwo,",12,6.486486486486487,24
+2,acs_proyec,"central térmica con 8 calentadores de agua, marca anwo,",10,5.405405405405405,24
+2,acs_proyec,calefont,10,5.405405405405405,24
+2,acs_proyec,5 calderas de gas natural genus premium evo hp 150 de 140,9,4.864864864864865,24
+2,acs_proyec,termo eléctrico mural con mezclador marca winter de 80 l,6,3.2432432432432434,24
+2,acs_proyec,caldera de condensación,6,3.2432432432432434,24
+2,acs_proyec,"calefont splendid, master 10",5,2.7027027027027026,24
+2,acs_proyec,caldera rinnai sm 75,4,2.1621621621621623,24
+3,zona_termica,c,149,82.32044198895028,2
+3,zona_termica,b,32,17.67955801104972,2
+3,tipo_inmueble,depto,162,89.50276243093923,2
+3,tipo_inmueble,casa_pareada,19,10.497237569060774,2
+3,calef_proyec,no posee,181,100.0,1
+3,acs_proyec,calefont 7 litros tiro forzado,181,100.0,1
+4,zona_termica,a,66,100.0,1
+4,tipo_inmueble,depto,66,100.0,1
+4,calef_proyec,no posee,66,100.0,1
+4,acs_proyec,"calefon splendid mvg tfi de 10 litros, de 17,6 kw potencia",38,57.57575757575758,4
+4,acs_proyec,"termo eléctrico anwo van200l, potencia 3.0 kw",25,37.878787878787875,4
+4,acs_proyec,"calefont splendid master ion tiro forzado 10 litros, de 17,6",2,3.0303030303030303,4
+4,acs_proyec,"calefon splendid sb tfi 10 2 ev de 10 litros, gas licuado",1,1.5151515151515151,4
+5,zona_termica,a,87,100.0,1
+5,tipo_inmueble,depto,87,100.0,1
+5,calef_proyec,no posee,87,100.0,1
+5,acs_proyec,calefont 7 litros tiro forzado,87,100.0,1
+6,zona_termica,a,79,100.0,1
+6,tipo_inmueble,depto,79,100.0,1
+6,calef_proyec,no posee,79,100.0,1
+6,acs_proyec,calefont 7 litros tiro forzado,79,100.0,1
+7,zona_termica,d,57,100.0,1
+7,tipo_inmueble,casa_pareada,56,98.24561403508771,2
+7,tipo_inmueble,casa_aislada,1,1.7543859649122806,2
+7,calef_proyec,no posee,57,100.0,1
+7,acs_proyec,calefont tiro forzado,57,100.0,1
+8,zona_termica,d,85,100.0,1
+8,tipo_inmueble,depto,85,100.0,1
+8,calef_proyec,no posee,85,100.0,1
+8,acs_proyec,termo eléctrico,52,61.1764705882353,5
+8,acs_proyec,el edificio cuenta con 2 calderas para el edificio sur y 3 calderas,22,25.882352941176475,5
+8,acs_proyec,caldera,7,8.235294117647058,5
+8,acs_proyec,central termica bomba calor aerotermica - electricidad,3,3.5294117647058822,5
+8,acs_proyec,calefón con condensación,1,1.1764705882352942,5
+9,zona_termica,d,52,100.0,1
+9,tipo_inmueble,casa_pareada,52,100.0,1
+9,calef_proyec,no posee,52,100.0,1
+9,acs_proyec,calefont,52,100.0,1
+10,zona_termica,d,58,100.0,1
+10,tipo_inmueble,casa_pareada,58,100.0,1
+10,calef_proyec,no posee,58,100.0,1
+10,acs_proyec,calefont,58,100.0,1
+11,zona_termica,d,129,100.0,1
+11,tipo_inmueble,depto,129,100.0,1
+11,calef_proyec,no posee,129,100.0,1
+11,acs_proyec,calefont 10 litros tiro forzado,121,93.7984496124031,6
+11,acs_proyec,"calefont 10 litros tiro forzado, gas natural",4,3.10077519379845,6
+11,acs_proyec,calefont gas licuado,1,0.7751937984496124,6
+11,acs_proyec,calefont tiro forzado 13 litros,1,0.7751937984496124,6
+11,acs_proyec,calefont tiro forzado 12 litros,1,0.7751937984496124,6
+11,acs_proyec,el edificio cuenta con 2 bombas de calor midea rsj800 y un,1,0.7751937984496124,6
+12,zona_termica,d,83,100.0,1
+12,tipo_inmueble,depto,83,100.0,1
+12,calef_proyec,no posee,83,100.0,1
+12,acs_proyec,sala de calderas,83,100.0,1
+13,zona_termica,d,78,100.0,1
+13,tipo_inmueble,depto,78,100.0,1
+13,calef_proyec,no posee,78,100.0,1
+13,acs_proyec,caldera condensación,73,93.58974358974359,2
+13,acs_proyec,calderas de condensación,5,6.41025641025641,2
+14,zona_termica,f,82,100.0,1
+14,tipo_inmueble,casa_aislada,82,100.0,1
+14,calef_proyec,no posee,82,100.0,1
+14,acs_proyec,calefont 7 litros tiro forzado,82,100.0,1
+15,zona_termica,f,68,100.0,1
+15,tipo_inmueble,casa_aislada,68,100.0,1
+15,calef_proyec,no posee,68,100.0,1
+15,acs_proyec,calefont 10 litros tiro forzado,68,100.0,1
+16,zona_termica,f,92,100.0,1
+16,tipo_inmueble,casa_pareada,92,100.0,1
+16,calef_proyec,no posee,92,100.0,1
+16,acs_proyec,calefont 7 litros tiro forzado,92,100.0,1
+17,zona_termica,g,80,100.0,1
+17,tipo_inmueble,casa_aislada,80,100.0,1
+17,calef_proyec,no posee,80,100.0,1
+17,acs_proyec,calefont 7 litros,36,45.0,3
+17,acs_proyec,calefon,32,40.0,3
+17,acs_proyec,calefont 10 litros tiro forzado,12,15.0,3
+18,zona_termica,d,73,100.0,1
+18,tipo_inmueble,depto,73,100.0,1
+18,calef_proyec,no posee,73,100.0,1
+18,acs_proyec,caldera a condensación,72,98.63013698630137,2
+18,acs_proyec,termo eléctrico marca winter 80 litros.,1,1.36986301369863,2
+19,zona_termica,f,87,100.0,1
+19,tipo_inmueble,casa_aislada,87,100.0,1
+19,calef_proyec,no posee,87,100.0,1
+19,acs_proyec,calefont glp,87,100.0,1
+20,zona_termica,g,56,100.0,1
+20,tipo_inmueble,casa_aislada,56,100.0,1
+20,calef_proyec,no posee,56,100.0,1
+20,acs_proyec,calefont glp,56,100.0,1
+21,zona_termica,e,116,100.0,1
+21,tipo_inmueble,casa_aislada,116,100.0,1
+21,calef_proyec,no posee,116,100.0,1
+21,acs_proyec,calefont glp,116,100.0,1
+22,zona_termica,g,93,100.0,1
+22,tipo_inmueble,depto,93,100.0,1
+22,calef_proyec,no posee,93,100.0,1
+22,acs_proyec,calefont 7 litros tiro forzado,93,100.0,1
+23,zona_termica,g,81,100.0,1
+23,tipo_inmueble,depto,81,100.0,1
+23,calef_proyec,no posee,81,100.0,1
+23,acs_proyec,calefont 10 litros tiro forzado,81,100.0,1
+24,zona_termica,d,92,100.0,1
+24,tipo_inmueble,depto,92,100.0,1
+24,calef_proyec,no posee,92,100.0,1
+24,acs_proyec,calefont tiro forzado,92,100.0,1
+25,zona_termica,e,57,100.0,1
+25,tipo_inmueble,casa_pareada,57,100.0,1
+25,calef_proyec,no posee,57,100.0,1
+25,acs_proyec,calefont glp,57,100.0,1
+26,zona_termica,f,56,100.0,1
+26,tipo_inmueble,casa_pareada,56,100.0,1
+26,calef_proyec,no aplica,56,100.0,1
+26,acs_proyec,calefont glp,56,100.0,1
+27,zona_termica,f,134,100.0,1
+27,tipo_inmueble,casa_pareada,134,100.0,1
+27,calef_proyec,no posee,134,100.0,1
+27,acs_proyec,calefont glp,134,100.0,1
+28,zona_termica,d,129,100.0,1
+28,tipo_inmueble,depto,129,100.0,1
+28,calef_proyec,no posee,129,100.0,1
+28,acs_proyec,caldera de condensación,124,96.12403100775194,6
+28,acs_proyec,"calefont 10 litros tiro forzado, gas natural",1,0.7751937984496124,6
+28,acs_proyec,"el edificio cuenta con 5 calderas de gas natural, riello condexa",1,0.7751937984496124,6
+28,acs_proyec,caldera a gas centralizada,1,0.7751937984496124,6
+28,acs_proyec,"en definición, se utiliza por defecto en precalificación.",1,0.7751937984496124,6
+28,acs_proyec,el edificio cuenta con 2 calderas sime 2r10 de 154.500 kcal/h,1,0.7751937984496124,6
+29,zona_termica,f,63,100.0,1
+29,tipo_inmueble,depto,63,100.0,1
+29,calef_proyec,no posee,63,100.0,1
+29,acs_proyec,calefont glp,63,100.0,1
+30,zona_termica,d,60,100.0,1
+30,tipo_inmueble,depto,60,100.0,1
+30,calef_proyec,no posee,60,100.0,1
+30,acs_proyec,caldera central a gas,51,85.0,6
+30,acs_proyec,central térmica con bomba de calor,3,5.0,6
+30,acs_proyec,caldera rinnai sm 175,3,5.0,6
+30,acs_proyec,caldera a gas centralizada,1,1.6666666666666667,6
+30,acs_proyec,caldera a condensaciòn,1,1.6666666666666667,6
+30,acs_proyec,el edificio cuenta con 4 calderas a gas natural de condensación,1,1.6666666666666667,6
+31,zona_termica,f,53,100.0,1
+31,tipo_inmueble,depto,53,100.0,1
+31,calef_proyec,no posee,53,100.0,1
+31,acs_proyec,calefont 7 litros tiro forzado,53,100.0,1
+32,zona_termica,f,78,100.0,1
+32,tipo_inmueble,depto,78,100.0,1
+32,calef_proyec,no posee,78,100.0,1
+32,acs_proyec,calefont 7 litros tiro forzado,78,100.0,1
+33,zona_termica,d,167,86.97916666666666,2
+33,zona_termica,e,25,13.020833333333334,2
+33,tipo_inmueble,casa_aislada,192,100.0,1
+33,calef_proyec,no posee,192,100.0,1
+33,acs_proyec,calefont 7 litros tiro forzado,187,97.39583333333334,2
+33,acs_proyec,calefont 13 litros tiro forzado,5,2.604166666666667,2
+34,zona_termica,e,60,100.0,1
+34,tipo_inmueble,casa_pareada,60,100.0,1
+34,calef_proyec,no posee,60,100.0,1
+34,acs_proyec,calefont 7 litros tiro forzado,60,100.0,1
+35,zona_termica,e,61,100.0,1
+35,tipo_inmueble,depto,61,100.0,1
+35,calef_proyec,sin sistema,60,98.36065573770492,2
+35,calef_proyec,no posee,1,1.639344262295082,2
+35,acs_proyec,calefont,26,42.62295081967213,4
+35,acs_proyec,calefont tiro forzado 13 lts,24,39.34426229508197,4
+35,acs_proyec,calefont tiro forzado 10 litros,7,11.475409836065573,4
+35,acs_proyec,calefon,4,6.557377049180328,4
+36,zona_termica,d,107,100.0,1
+36,tipo_inmueble,casa_pareada,107,100.0,1
+36,calef_proyec,no posee,107,100.0,1
+36,acs_proyec,calefont 10 litros tiro forzado,107,100.0,1
+37,zona_termica,d,76,100.0,1
+37,tipo_inmueble,depto,76,100.0,1
+37,calef_proyec,no posee,76,100.0,1
+37,acs_proyec,calefont glp,76,100.0,1
+38,zona_termica,d,139,100.0,1
+38,tipo_inmueble,depto,139,100.0,1
+38,calef_proyec,no posee,139,100.0,1
+38,acs_proyec,central termica,89,64.02877697841727,11
+38,acs_proyec,central térmica,33,23.741007194244602,11
+38,acs_proyec,calefón con condensación,5,3.597122302158273,11
+38,acs_proyec,termo eléctrico marca winter 80 litros.,3,2.158273381294964,11
+38,acs_proyec,5 calderas de gas natural genus premium evo hp 150 de 140,2,1.4388489208633095,11
+38,acs_proyec,calderas de condensación,2,1.4388489208633095,11
+38,acs_proyec,el edificio cuenta con 4 calderas tipo mural de condensación,1,0.7194244604316548,11
+38,acs_proyec,caldera mural de condensación,1,0.7194244604316548,11
+38,acs_proyec,central termica bomba calor aerotermica - electricidad,1,0.7194244604316548,11
+38,acs_proyec,el edificio cuenta con 4 calderas a gas natural de condensación,1,0.7194244604316548,11
+39,zona_termica,d,85,100.0,1
+39,tipo_inmueble,casa_pareada,85,100.0,1
+39,calef_proyec,no posee,85,100.0,1
+39,acs_proyec,calefont glp,85,100.0,1
+40,zona_termica,d,151,100.0,1
+40,tipo_inmueble,casa_pareada,151,100.0,1
+40,calef_proyec,no posee,151,100.0,1
+40,acs_proyec,calefont glp,151,100.0,1
+41,zona_termica,d,112,100.0,1
+41,tipo_inmueble,casa_pareada,112,100.0,1
+41,calef_proyec,no posee,112,100.0,1
+41,acs_proyec,calefont 7 litros tiro forzado,112,100.0,1
+42,zona_termica,d,63,100.0,1
+42,tipo_inmueble,casa_pareada,63,100.0,1
+42,calef_proyec,no posee,63,100.0,1
+42,acs_proyec,calefont 7 litros tiro forzado,63,100.0,1
+43,zona_termica,d,97,100.0,1
+43,tipo_inmueble,casa_pareada,97,100.0,1
+43,calef_proyec,no posee,97,100.0,1
+43,acs_proyec,calefont 7 litros tiro forzado,97,100.0,1
+44,zona_termica,d,181,100.0,1
+44,tipo_inmueble,depto,181,100.0,1
+44,calef_proyec,no posee,181,100.0,1
+44,acs_proyec,calefont glp,181,100.0,1
+45,zona_termica,d,59,100.0,1
+45,tipo_inmueble,casa_pareada,59,100.0,1
+45,calef_proyec,no posee,59,100.0,1
+45,acs_proyec,calefont 7 litros tiro forzado,59,100.0,1
+46,zona_termica,d,50,100.0,1
+46,tipo_inmueble,casa_pareada,50,100.0,1
+46,calef_proyec,no posee,50,100.0,1
+46,acs_proyec,calefont 7 litros tiro forzado,50,100.0,1
+47,zona_termica,d,53,100.0,1
+47,tipo_inmueble,depto,53,100.0,1
+47,calef_proyec,no posee,53,100.0,1
+47,acs_proyec,calefont glp,53,100.0,1
+48,zona_termica,d,71,100.0,1
+48,tipo_inmueble,depto,71,100.0,1
+48,calef_proyec,no posee,71,100.0,1
+48,acs_proyec,calefont glp,71,100.0,1
+49,zona_termica,d,82,100.0,1
+49,tipo_inmueble,depto,82,100.0,1
+49,calef_proyec,no posee,82,100.0,1
+49,acs_proyec,calefont glp,82,100.0,1
+50,zona_termica,d,216,99.53917050691244,2
+50,zona_termica,e,1,0.4608294930875576,2
+50,tipo_inmueble,depto,217,100.0,1
+50,calef_proyec,no posee,153,70.50691244239631,3
+50,calef_proyec,sin sistema,48,22.119815668202765,3
+50,calef_proyec,no considera,16,7.373271889400922,3
+50,acs_proyec,calefont,156,71.88940092165899,7
+50,acs_proyec,calefon de condensación,29,13.36405529953917,7
+50,acs_proyec,calentamiento de agua con caldera a condensación,19,8.755760368663594,7
+50,acs_proyec,calefont tiro forzado 13 lts splendid modelo mvg tfi 13,10,4.6082949308755765,7
+50,acs_proyec,calefont tiro forzado 10 litros,1,0.4608294930875576,7
+50,acs_proyec,"por definir, por defecto.",1,0.4608294930875576,7
+50,acs_proyec,calefacción central mediante caldera de condensación,1,0.4608294930875576,7
+51,zona_termica,c,67,100.0,1
+51,tipo_inmueble,depto,67,100.0,1
+51,calef_proyec,no posee,67,100.0,1
+51,acs_proyec,calefont 7 litros tiro forzado,64,95.52238805970148,3
+51,acs_proyec,calefont,2,2.9850746268656714,3
+51,acs_proyec,"calefont splendid 10 litros, gas licuado",1,1.4925373134328357,3
+52,zona_termica,d,90,100.0,1
+52,tipo_inmueble,depto,90,100.0,1
+52,calef_proyec,no posee,90,100.0,1
+52,acs_proyec,caldera con condensación,89,98.88888888888889,2
+52,acs_proyec,central térmica con bomba de calor,1,1.1111111111111112,2
+53,zona_termica,d,89,100.0,1
+53,tipo_inmueble,depto,89,100.0,1
+53,calef_proyec,no considera,89,100.0,1
+53,acs_proyec,caldera con condensación,89,100.0,1
+54,zona_termica,e,190,100.0,1
+54,tipo_inmueble,depto,190,100.0,1
+54,calef_proyec,no posee,190,100.0,1
+54,acs_proyec,calefont 7 litros tiro forzado,190,100.0,1
+55,zona_termica,d,82,100.0,1
+55,tipo_inmueble,depto,82,100.0,1
+55,calef_proyec,no posee,82,100.0,1
+55,acs_proyec,calefont 7 litros tiro forzado,82,100.0,1
+56,zona_termica,d,85,100.0,1
+56,tipo_inmueble,depto,85,100.0,1
+56,calef_proyec,no posee,85,100.0,1
+56,acs_proyec,calefont 7 litros tiro forzado,85,100.0,1
+57,zona_termica,d,62,100.0,1
+57,tipo_inmueble,depto,62,100.0,1
+57,calef_proyec,no posee,62,100.0,1
+57,acs_proyec,calefont 7 litros tiro forzado,62,100.0,1
+58,zona_termica,d,68,100.0,1
+58,tipo_inmueble,depto,68,100.0,1
+58,calef_proyec,no posee,68,100.0,1
+58,acs_proyec,calefont 7 litros tiro forzado,68,100.0,1
+59,zona_termica,d,63,100.0,1
+59,tipo_inmueble,depto,63,100.0,1
+59,calef_proyec,no posee,63,100.0,1
+59,acs_proyec,calefont 7 litros tiro forzado,63,100.0,1
+60,zona_termica,d,125,100.0,1
+60,tipo_inmueble,depto,125,100.0,1
+60,calef_proyec,no posee,125,100.0,1
+60,acs_proyec,calefont 7 litros tiro forzado,125,100.0,1
+61,zona_termica,d,85,100.0,1
+61,tipo_inmueble,depto,85,100.0,1
+61,calef_proyec,no posee,85,100.0,1
+61,acs_proyec,calefont 7 litros tiro forzado,85,100.0,1

@@ -1,0 +1,10 @@
+variable,tipo,prueba,estadistico,p_value,grados_libertad,tamano_efecto,tamano_efecto_nombre,nota
+superficie_util,numerica,Kruskal-Wallis,2375.7902171305245,0.0,32,0.25027124582280025,epsilon_cuadrado,"Exploratoria, no concluyente."
+u_norm_muro_principal,numerica,Kruskal-Wallis,9391.834082623875,0.0,32,0.9994483804189935,epsilon_cuadrado,"Exploratoria, no concluyente."
+u_norm_muro_secundario,numerica,Kruskal-Wallis,9391.834082623875,0.0,32,0.9994483804189935,epsilon_cuadrado,"Exploratoria, no concluyente."
+u_norm_techo_principal,numerica,Kruskal-Wallis,9391.834082623875,0.0,32,0.9994483804189935,epsilon_cuadrado,"Exploratoria, no concluyente."
+u_norm_techo_secundario,numerica,Kruskal-Wallis,9391.834082623875,0.0,32,0.9994483804189935,epsilon_cuadrado,"Exploratoria, no concluyente."
+log_calef_proyec_kwh,numerica,Kruskal-Wallis,5416.45841297022,0.0,32,0.574955516601198,epsilon_cuadrado,"Exploratoria, no concluyente."
+log_acs_proyec_kwh,numerica,Kruskal-Wallis,2923.8332835748724,0.0,32,0.30892354273847583,epsilon_cuadrado,"Exploratoria, no concluyente."
+zona_termica,categorica,Chi-cuadrado independencia,65785.99999999999,0.0,224,0.9999999999999999,v_cramer,"Exploratoria, no concluyente."
+tipo_inmueble,categorica,Chi-cuadrado independencia,17890.82406255657,0.0,64,0.9756239528582474,v_cramer,"Exploratoria, no concluyente."

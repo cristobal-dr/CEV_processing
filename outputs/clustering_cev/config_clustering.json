@@ -1,0 +1,101 @@
+{
+  "created_at": "2026-06-11T20:46:07",
+  "input": "data/processed/fichas_cev_cluster_input_v2_kwh.csv",
+  "params": {
+    "min_cluster_size": 50,
+    "min_samples": 15,
+    "max_rows": 10000,
+    "random_state": 42,
+    "use_log_superficie": false,
+    "use_kwh_systems": true,
+    "use_log_kwh_systems": true,
+    "id_col": "document_id",
+    "generate_demo_data": false
+  },
+  "columns": {
+    "numeric": [
+      "superficie_util",
+      "u_norm_muro_principal",
+      "u_norm_muro_secundario",
+      "u_norm_techo_principal",
+      "u_norm_techo_secundario",
+      "log_calef_proyec_kwh",
+      "log_acs_proyec_kwh"
+    ],
+    "categorical": [
+      "zona_termica",
+      "tipo_inmueble"
+    ],
+    "aliases": {
+      "superficie_util": [
+        "superficie_util",
+        "superficie util",
+        "sup_util",
+        "superficie"
+      ],
+      "zona_termica": [
+        "zona_termica",
+        "zona termica",
+        "zt"
+      ],
+      "tipo_inmueble": [
+        "tipo_inmueble",
+        "tipo inmueble",
+        "tipo_vivienda"
+      ],
+      "calef_proyec": [
+        "calef_proyec",
+        "calefaccion_proyectada",
+        "calefaccion proyectada"
+      ],
+      "acs_proyec": [
+        "acs_proyec",
+        "acs_proyectada",
+        "agua_caliente_sanitaria_proyectada"
+      ],
+      "calef_proyec_kwh": [
+        "calef_proyec_kwh",
+        "calefaccion_proyectada_kwh"
+      ],
+      "acs_proyec_kwh": [
+        "acs_proyec_kwh",
+        "acs_proyectada_kwh"
+      ],
+      "u_norm_muro_principal": [
+        "u_norm_muro_principal",
+        "exigencia_u_muro_principal",
+        "u_muro_principal_normativa",
+        "u_muro_principal"
+      ],
+      "u_norm_muro_secundario": [
+        "u_norm_muro_secundario",
+        "exigencia_u_muro_secundario",
+        "u_muro_secundario_normativa",
+        "u_muro_secundario"
+      ],
+      "u_norm_techo_principal": [
+        "u_norm_techo_principal",
+        "exigencia_u_techo_principal",
+        "u_techo_principal_normativa",
+        "u_techo_principal"
+      ],
+      "u_norm_techo_secundario": [
+        "u_norm_techo_secundario",
+        "exigencia_u_techo_secundario",
+        "u_techo_secundario_normativa",
+        "u_techo_secundario"
+      ]
+    }
+  },
+  "versions": {
+    "python": "3.11.15",
+    "platform": "Linux-6.14.0-37-generic-x86_64-with-glibc2.39",
+    "pandas": "3.0.3",
+    "numpy": "2.4.6",
+    "scikit-learn": "1.8.0",
+    "hdbscan": "0.8.44",
+    "gower": "0.1.2",
+    "matplotlib": "3.10.9",
+    "scipy": "1.17.1"
+  }
+}

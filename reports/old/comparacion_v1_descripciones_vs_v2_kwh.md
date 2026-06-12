@@ -1,0 +1,43 @@
+# Comparacion v1 descripciones vs v2 kWh
+
+La v1 usa las descripciones textuales de calefaccion y ACS como variables categoricas. La v2 reemplaza esas descripciones por `calef_proyec_kwh` y `acs_proyec_kwh` como variables numericas con transformacion `log1p`, para reducir el efecto de outliers y de variaciones de texto libre.
+
+## Metricas generales
+
+| version          | variables_sistemas                      |   n_usado |   clusters_sin_ruido |   n_ruido |   pct_ruido |   silhouette_global |   silhouette_cluster_mediana |   tam_cluster_mediana |   tam_cluster_max |
+|:-----------------|:----------------------------------------|----------:|---------------------:|----------:|------------:|--------------------:|-----------------------------:|----------------------:|------------------:|
+| v1_descripciones | descripcion texto                       |     10000 |                   62 |      4300 |       43    |            0.73842  |                     0.861552 |                    82 |               217 |
+| v2_kwh_log       | calef_proyec_kwh + acs_proyec_kwh log1p |     10000 |                   33 |       602 |        6.02 |            0.688623 |                     0.740438 |                   167 |              3354 |
+
+## Top clusters
+
+| version          |   cluster |    n |   pct_total |   silhouette_media | tipo         | zona   |   sup_mediana |   calef_kwh_mediana |   acs_kwh_mediana | etiqueta                                                                                     |
+|:-----------------|----------:|-----:|------------:|-------------------:|:-------------|:-------|--------------:|--------------------:|------------------:|:---------------------------------------------------------------------------------------------|
+| v1_descripciones |        50 |  217 |        2.17 |              0.182 | depto        | d      |         51.6  |              nan    |             nan   | depto / d / sup_mediana 52 m2 / calef: no posee / acs: calefont                              |
+| v1_descripciones |        33 |  192 |        1.92 |              0.549 | casa_aislada | d      |         68.5  |              nan    |             nan   | casa_aislada / d / sup_mediana 68 m2 / calef: no posee / acs: calefont 7 litros tiro forzado |
+| v1_descripciones |        54 |  190 |        1.9  |              0.956 | depto        | e      |         47.05 |              nan    |             nan   | depto / e / sup_mediana 47 m2 / calef: no posee / acs: calefont 7 litros tiro forzado        |
+| v1_descripciones |         2 |  185 |        1.85 |              0.118 | depto        | d      |         45.7  |              nan    |             nan   | depto / d / sup_mediana 46 m2 / calef: no posee / acs: calefont 7 litros tiro forzado        |
+| v1_descripciones |        44 |  181 |        1.81 |              0.796 | depto        | d      |         48.5  |              nan    |             nan   | depto / d / sup_mediana 48 m2 / calef: no posee / acs: calefont glp                          |
+| v1_descripciones |         3 |  181 |        1.81 |              0.566 | depto        | c      |         51.5  |              nan    |             nan   | depto / c / sup_mediana 52 m2 / calef: no posee / acs: calefont 7 litros tiro forzado        |
+| v1_descripciones |        40 |  151 |        1.51 |              0.879 | casa_pareada | d      |         42    |              nan    |             nan   | casa_pareada / d / sup_mediana 42 m2 / calef: no posee / acs: calefont glp                   |
+| v1_descripciones |        38 |  139 |        1.39 |              0.439 | depto        | d      |         29    |              nan    |             nan   | depto / d / sup_mediana 29 m2 / calef: no posee / acs: central termica                       |
+| v1_descripciones |        27 |  134 |        1.34 |              0.965 | casa_pareada | f      |         46.2  |              nan    |             nan   | casa_pareada / f / sup_mediana 46 m2 / calef: no posee / acs: calefont glp                   |
+| v1_descripciones |        11 |  129 |        1.29 |              0.504 | depto        | d      |         48    |              nan    |             nan   | depto / d / sup_mediana 48 m2 / calef: no posee / acs: calefont 10 litros tiro forzado       |
+| v2_kwh_log       |        25 | 3354 |       33.54 |              0.593 | depto        | d      |         47.2  |             2398.5  |            2438.1 | depto / d / sup_mediana 47 m2 / calef: 2398 kWh / acs: 2438 kWh                              |
+| v2_kwh_log       |        27 |  714 |        7.14 |              0.757 | casa_pareada | d      |         50.7  |             6621.9  |            2482   | casa_pareada / d / sup_mediana 51 m2 / calef: 6622 kWh / acs: 2482 kWh                       |
+| v2_kwh_log       |        13 |  419 |        4.19 |              0.826 | depto        | e      |         51    |             2301.4  |            2857.2 | depto / e / sup_mediana 51 m2 / calef: 2301 kWh / acs: 2857 kWh                              |
+| v2_kwh_log       |        18 |  332 |        3.32 |              0.706 | casa_aislada | d      |         81.1  |            12933.6  |            3540.1 | casa_aislada / d / sup_mediana 81 m2 / calef: 12934 kWh / acs: 3540 kWh                      |
+| v2_kwh_log       |        15 |  281 |        2.81 |              0.7   | casa_pareada | f      |         46.2  |             9445.2  |            2729.7 | casa_pareada / f / sup_mediana 46 m2 / calef: 9445 kWh / acs: 2730 kWh                       |
+| v2_kwh_log       |         4 |  258 |        2.58 |              0.685 | depto        | a      |         55    |              472.65 |            2564.2 | depto / a / sup_mediana 55 m2 / calef: 473 kWh / acs: 2564 kWh                               |
+| v2_kwh_log       |        26 |  255 |        2.55 |              0.763 | depto        | d      |         52.4  |             2440.3  |            2485.7 | depto / d / sup_mediana 52 m2 / calef: 2440 kWh / acs: 2486 kWh                              |
+| v2_kwh_log       |         9 |  239 |        2.39 |              0.74  | depto        | c      |         49.3  |             1242.6  |            2631.3 | depto / c / sup_mediana 49 m2 / calef: 1243 kWh / acs: 2631 kWh                              |
+| v2_kwh_log       |         2 |  236 |        2.36 |              0.826 | depto        | c      |         51    |             1345.45 |            2717.9 | depto / c / sup_mediana 51 m2 / calef: 1345 kWh / acs: 2718 kWh                              |
+| v2_kwh_log       |        10 |  224 |        2.24 |              0.928 | depto        | d      |         49.9  |             4775.4  |            2495.6 | depto / d / sup_mediana 50 m2 / calef: 4775 kWh / acs: 2496 kWh                              |
+
+## Lectura rapida
+
+- Ruido v1: 43.00%.
+- Ruido v2: 6.02%.
+- La baja fuerte de ruido en v2 sugiere que las descripciones textuales estaban generando fragmentacion por categorias muy variadas.
+- La v2 parece mas estable para descubrir familias de arquetipos asociadas a intensidad energetica de calefaccion/ACS, tipo de inmueble, zona termica, superficie y exigencias U.
+- Aun asi, las etiquetas siguen siendo preliminares y requieren revision tecnica de representantes y percentiles.

@@ -1,0 +1,63 @@
+document_id,superficie_util,zona_termica,tipo_inmueble,calef_proyec,acs_proyec,u_norm_muro_principal,u_norm_muro_secundario,u_norm_techo_principal,u_norm_techo_secundario,cluster_hdbscan,cluster_probability,cluster_is_noise
+24ee472025,50.5,d,depto,calefactor electrico,calefont 10 litros gl,3.0,3.0,0.6,0.6,0,1.0,False
+552fcb2022,72.6,d,casa_pareada,estufa kerosene 3 kw,calefon tiro natural 10 lts +sst,1.7,1.7,0.38,0.38,1,1.0,False
+b7b66b2020,47.5,d,depto,no posee,calefont 7 litros tiro forzado,1.0,1.0,0.0,0.0,2,0.9996619144450413,False
+102b7c2025,51.5,c,depto,no posee,calefont 7 litros tiro forzado,4.0,4.0,0.84,0.84,3,1.0,False
+ae191b2023,49.9,a,depto,no posee,"calefon splendid mvg tfi de 10 litros, de 17,6 kw potencia",4.0,4.0,0.84,0.84,4,1.0,False
+71859c2023,55.0,a,depto,no posee,calefont 7 litros tiro forzado,4.0,4.0,0.84,0.84,5,1.0,False
+26f8ce2019,60.0,a,depto,no posee,calefont 7 litros tiro forzado,4.0,4.0,0.84,0.84,6,1.0,False
+2ab5b92022,79.4,d,casa_pareada,no posee,calefont tiro forzado,1.7,1.7,0.38,0.38,7,1.0,False
+2a01dd2026,28.4,d,depto,no posee,termo eléctrico,1.9,1.9,0.47,0.47,8,1.0,False
+af29562020,64.8,d,casa_pareada,no posee,calefont,1.7,1.7,0.38,0.38,9,1.0,False
+628f2e2023,58.6,d,casa_pareada,no posee,calefont,1.9,1.9,0.47,0.47,10,1.0,False
+9a87c92022,48.0,d,depto,no posee,calefont 10 litros tiro forzado,1.9,1.9,0.47,0.47,11,1.0,False
+7db1582025,37.6,d,depto,no posee,sala de calderas,1.9,1.9,0.47,0.47,12,1.0,False
+29f0862020,40.8,d,depto,no posee,caldera condensación,1.9,1.9,0.47,0.47,13,1.0,False
+9223e02026,56.6,f,casa_aislada,no posee,calefont 7 litros tiro forzado,1.7,1.7,0.38,0.38,14,1.0,False
+8aad0d2020,58.3,f,casa_aislada,no posee,calefont 10 litros tiro forzado,1.7,1.7,0.38,0.38,15,1.0,False
+0145c62026,44.5,f,casa_pareada,no posee,calefont 7 litros tiro forzado,1.7,1.7,0.38,0.38,16,1.0,False
+ae7ce42025,48.7,g,casa_aislada,no posee,calefont 7 litros,1.1,1.1,0.28,0.28,17,1.0,False
+ef72f82023,39.0,d,depto,no posee,caldera a condensación,1.9,1.9,0.47,0.47,18,1.0,False
+19790f2022,41.8,f,casa_aislada,no posee,calefont glp,1.6,1.6,0.33,0.33,19,1.0,False
+3d5e5c2024,50.3,g,casa_aislada,no posee,calefont glp,1.6,1.6,0.33,0.33,20,1.0,False
+85e51e2025,48.3,e,casa_aislada,no posee,calefont glp,1.7,1.7,0.38,0.38,21,1.0,False
+4831462023,52.2,g,depto,no posee,calefont 7 litros tiro forzado,1.6,1.6,0.33,0.33,22,1.0,False
+ba08642023,50.2,g,depto,no posee,calefont 10 litros tiro forzado,1.6,1.6,0.33,0.33,23,1.0,False
+f0ffba2024,53.7,d,depto,no posee,calefont tiro forzado,1.7,1.7,0.38,0.38,24,1.0,False
+b833542025,48.3,e,casa_pareada,no posee,calefont glp,1.7,1.7,0.38,0.38,25,1.0,False
+c3d7fd2023,54.0,f,casa_pareada,no aplica,calefont glp,1.6,1.6,0.33,0.33,26,1.0,False
+ecc2662021,46.2,f,casa_pareada,no posee,calefont glp,1.7,1.7,0.38,0.38,27,1.0,False
+5f5a832024,40.4,d,depto,no posee,caldera de condensación,1.9,1.9,0.47,0.47,28,1.0,False
+fb43382020,52.3,f,depto,no posee,calefont glp,1.7,1.7,0.38,0.38,29,1.0,False
+0d32772024,31.2,d,depto,no posee,caldera central a gas,1.9,1.9,0.47,0.47,30,1.0,False
+4dce792026,45.7,f,depto,no posee,calefont 7 litros tiro forzado,1.7,1.7,0.38,0.38,31,1.0,False
+3625652026,49.4,f,depto,no posee,calefont 7 litros tiro forzado,1.6,1.6,0.33,0.33,32,1.0,False
+5409552024,69.4,d,casa_aislada,no posee,calefont 7 litros tiro forzado,1.9,1.9,0.47,0.47,33,0.8604651212905323,False
+520bb62024,47.0,e,casa_pareada,no posee,calefont 7 litros tiro forzado,1.7,1.7,0.38,0.38,34,1.0,False
+45c49f2024,57.8,e,depto,sin sistema,calefont,1.7,1.7,0.38,0.38,35,1.0,False
+61a1be2021,50.7,d,casa_pareada,no posee,calefont 10 litros tiro forzado,1.9,1.9,0.47,0.47,36,1.0,False
+5ab40e2023,49.9,d,depto,no posee,calefont glp,3.0,3.0,0.6,0.6,37,1.0,False
+c4e42d2024,29.0,d,depto,no posee,central termica,1.9,1.9,0.47,0.47,38,1.0,False
+ddafb42024,51.6,d,casa_pareada,no posee,calefont glp,1.9,1.9,0.47,0.47,39,1.0,False
+c8ff1d2021,42.0,d,casa_pareada,no posee,calefont glp,1.9,1.9,0.47,0.47,40,1.0,False
+273b6a2025,47.0,d,casa_pareada,no posee,calefont 7 litros tiro forzado,1.7,1.7,0.38,0.38,41,1.0,False
+d432e12018,45.2,d,casa_pareada,no posee,calefont 7 litros tiro forzado,1.9,1.9,0.47,0.47,42,1.0,False
+8086042023,55.1,d,casa_pareada,no posee,calefont 7 litros tiro forzado,1.9,1.9,0.47,0.47,43,1.0,False
+21e9632026,48.5,d,depto,no posee,calefont glp,1.9,1.9,0.47,0.47,44,1.0,False
+287d7d2025,55.5,d,casa_pareada,no posee,calefont 7 litros tiro forzado,1.7,1.7,0.38,0.38,45,1.0,False
+339e062025,58.7,d,casa_pareada,no posee,calefont 7 litros tiro forzado,1.7,1.7,0.38,0.38,46,1.0,False
+ef0bd32022,52.3,d,depto,no posee,calefont glp,1.9,1.9,0.47,0.47,47,1.0,False
+f8014d2020,51.0,d,depto,no posee,calefont glp,1.9,1.9,0.47,0.47,48,1.0,False
+769ab72020,51.1,d,depto,no posee,calefont glp,1.9,1.9,0.47,0.47,49,1.0,False
+09cf962025,51.6,d,depto,no posee,calefont,1.9,1.9,0.47,0.47,50,1.0,False
+c83c942023,47.1,c,depto,no posee,calefont 7 litros tiro forzado,3.0,3.0,0.6,0.6,51,1.0,False
+389e922024,37.9,d,depto,no posee,caldera con condensación,1.9,1.9,0.47,0.47,52,1.0,False
+d0903d2024,35.5,d,depto,no considera,caldera con condensación,1.9,1.9,0.47,0.47,53,0.8918918964042826,False
+2fdcb22026,47.4,e,depto,no posee,calefont 7 litros tiro forzado,1.7,1.7,0.38,0.38,54,0.6999999459472024,False
+c6bb162024,53.5,d,depto,no posee,calefont 7 litros tiro forzado,3.0,3.0,0.6,0.6,55,1.0,False
+dd3cc32026,47.6,d,depto,no posee,calefont 7 litros tiro forzado,1.7,1.7,0.38,0.38,56,1.0,False
+b16e162025,30.7,d,depto,no posee,calefont 7 litros tiro forzado,1.9,1.9,0.47,0.47,57,1.0,False
+0b440a2023,52.8,d,depto,no posee,calefont 7 litros tiro forzado,1.9,1.9,0.47,0.47,58,1.0,False
+0217222026,46.5,d,depto,no posee,calefont 7 litros tiro forzado,1.9,1.9,0.47,0.47,59,1.0,False
+1d289f2023,48.8,d,depto,no posee,calefont 7 litros tiro forzado,1.9,1.9,0.47,0.47,60,1.0,False
+7e98132019,47.2,d,depto,no posee,calefont 7 litros tiro forzado,1.9,1.9,0.47,0.47,61,1.0,False
