@@ -28,6 +28,7 @@ La base SQLite principal no se versiona en Git. Se recomienda mantenerla en una 
 
 - [Guia de descarga de informacion CEV](docs/guia_descarga_informacion.md)
 - [Guia de procesamiento de PDFs y generacion de SQLite](docs/guia_procesamiento_pdf_sqlite.md)
+- [Guia de ubicaciones CEV y vista PostGIS](docs/guia_ubicaciones_postgis.md)
 
 ## Configuracion
 

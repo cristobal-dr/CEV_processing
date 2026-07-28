@@ -31,6 +31,10 @@ data/external/*
 !data/processed/.gitkeep
 !data/external/.gitkeep
 
+# Fuente y producto de ubicaciones CEV documentados en docs/guia_ubicaciones_postgis.md
+!data/raw/2026-07-03_DITEC_HyEE_Evaluaciones CEV con ubicación_V3.xlsx
+!data/processed/2026-07-03_DITEC_HyEE_Evaluaciones_CEV_ubicaciones.csv
+
 # PDFs, imágenes y archivos descargados
 *.pdf
 *.zip
